@@ -1,5 +1,5 @@
 const counterReducer = (state = 0, action) => {
-  console.log(state, action);
+  // console.log(state, action);
   switch (action.type) {
     case "UP":
       return state + 1;
